@@ -1,0 +1,25 @@
+package src.Recursion;
+
+public class Basic {
+
+    public static void function1() {
+        int x = 1;
+        function2();
+        System.out.println(x);
+    }
+
+    public static void function2() {
+        int x = 2;
+        function3();
+        System.out.println(x);
+    }
+
+    public static void function3(){
+        int x = 3;
+        System.out.println(x);
+    }
+
+    public static void main() {
+        function1();
+    }
+}
