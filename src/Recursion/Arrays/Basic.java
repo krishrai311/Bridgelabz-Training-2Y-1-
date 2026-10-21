@@ -1,5 +1,4 @@
 package src.Recursion.Arrays;
-
 public class Basic {
     public static void basic(int arr[],int i){
         if(i==arr.length){
