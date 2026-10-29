@@ -5,7 +5,7 @@ public class Basic {
     public static void function1() {
         int x = 1;
         function2();
-        System.out.println(x);
+        System.out.println(x),
     }
 
     public static void function2() {
